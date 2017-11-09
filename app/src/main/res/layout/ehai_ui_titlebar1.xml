@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_titlebar_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ehai_ui_titlebar_bg1">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/ehai_ui_titlebar_iv_back_size"
+            android:layout_height="@dimen/ehai_ui_titlebar_iv_back_size"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ehai_ui_titlebar_iv_back_margin_left"
+            android:maxHeight="@dimen/ehai_ui_titlebar_height" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ehai_ui_titlebar_height"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/ehai_ui_titlebar_text1"
+            android:textSize="@dimen/ehai_ui_titlebar_title_text_size" />
+
+        <TextView
+            android:id="@+id/tv_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ehai_ui_titlebar_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ehai_ui_titlebar_menu_margin_right"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text=""
+            android:textColor="@color/ehai_ui_titlebar_text1"
+            android:textSize="@dimen/ehai_ui_titlebar_menu_text_size" />
+
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="@dimen/ehai_ui_titlebar_iv_back_size"
+            android:layout_height="@dimen/ehai_ui_titlebar_iv_back_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ehai_ui_titlebar_iv_back_margin_left"
+            android:layout_marginRight="@dimen/ehai_ui_titlebar_menu_margin_right"
+            android:maxHeight="@dimen/ehai_ui_titlebar_height" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

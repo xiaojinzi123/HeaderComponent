@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--commonTitlebar-->
+    <dimen name="ehai_ui_titlebar_height">44dp</dimen>
+    <dimen name="ehai_ui_titlebar_iv_back_size">24dp</dimen>
+    <dimen name="ehai_ui_titlebar_iv_back_margin_left">12dp</dimen>
+    <dimen name="ehai_ui_titlebar_menu_margin_right">12dp</dimen>
+    <dimen name="ehai_ui_titlebar_menu_text_size">14sp</dimen>
+    <dimen name="ehai_ui_titlebar_title_text_size">18sp</dimen>
+
+    <!--commonDialog-->
+    <dimen name="ehai_ui_dialog_horizontal_margin">20dp</dimen>
+    <dimen name="ehai_ui_dialog_operate_foot_height">44dp</dimen>
+    <dimen name="ehai_ui_dialog_tv_content_size">15sp</dimen>
+    <dimen name="ehai_ui_dialog_tv_title_size">15sp</dimen>
+    <dimen name="ehai_ui_dialog_tv_cancel_size">15sp</dimen>
+    <dimen name="ehai_ui_dialog_tv_confirm_size">15sp</dimen>
+    <dimen name="ehai_ui_dialog_bg_corner">12dp</dimen>
+    <dimen name="ehai_ui_dialog_tv_content_horizontal_margin">20dp</dimen>
+
+    <!--confirmDialog-->
+    <dimen name="ehai_ui_confirm_dialog_tv_content_vertical_margin">20dp</dimen>
+
+    <!--tipDialog-->
+    <dimen name="ehai_ui_tip_dialog_tv_title_horizontal_margin">20dp</dimen>
+    <dimen name="ehai_ui_tip_dialog_tv_title_vertical_margin">15dp</dimen>
+    <dimen name="ehai_ui_tip_dialog_tv_content_margin_bottom">20dp</dimen>
+
+    <!--ehaiButton-->
+    <dimen name="ehai_ui_button_left_right_padding1">15dp</dimen>
+
+</resources>

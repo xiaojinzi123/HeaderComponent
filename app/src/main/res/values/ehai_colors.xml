@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ehai_ui_dialog_bg">@color/white</color>
+    <color name="ehai_ui_dialog_tv_title_text">@color/mine_shaft</color>
+    <color name="ehai_ui_dialog_tv_content_text">@color/mine_shaft</color>
+    <color name="ehai_ui_dialog_tv_cancel_text">@color/mine_shaft</color>
+    <color name="ehai_ui_dialog_tv_confirm_text">@color/deep_carrot_orange</color>
+    <color name="ehai_ui_dialog_split_line">@color/light_gray1</color>
+
+    <!--标题栏的背景颜色-->
+    <color name="ehai_ui_titlebar_bg1">@color/denim</color>
+    <color name="ehai_ui_titlebar_bg2">@color/white</color>
+    <color name="ehai_ui_titlebar_text1">@color/white</color>
+    <color name="ehai_ui_titlebar_text2">@color/mine_shaft</color>
+
+    <!--EHhaiUiButton的不同模式下的颜色-->
+    <color name="ehai_ui_button_bg1">@color/deep_carrot_orange</color>
+    <color name="ehai_ui_button_bg1_disabled">@color/light_gray1</color>
+    <color name="ehai_ui_button_text1">@color/white</color>
+
+    <!--虚线的颜色-->
+    <color name="ehai_ui_dotted_line">@color/light_gray1</color>
+
+</resources>
