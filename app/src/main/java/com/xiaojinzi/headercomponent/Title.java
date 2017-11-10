@@ -36,4 +36,11 @@ public @interface Title {
      */
     String menuText() default "";
 
+    /**
+     * the menu click will call a method in Activity which name is this value
+     *
+     * @return
+     */
+    String menuClick() default "";
+
 }

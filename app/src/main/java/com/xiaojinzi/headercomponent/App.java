@@ -42,6 +42,7 @@ public class App extends Application {
     }
 
     private View getView(@NonNull final Activity act, @Nullable Annotation[] annotations) {
+
         if (annotations == null) return null;
 
         boolean isHaveTitle = false;
@@ -90,8 +91,11 @@ public class App extends Application {
             iv_menu.setImageResource(ivMenu);
         }
 
+        // get the click method name of menu
+        String menuClickMethod = titleAnnotation.menuClick();
+
         try {
-            final Method onTitleClick = act.getClass().getMethod("onTitleClick", new Class[]{View.class});
+            final Method onTitleClick = act.getClass().getMethod(menuClickMethod, new Class[]{View.class});
             View.OnClickListener listener = new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -104,7 +108,6 @@ public class App extends Application {
             };
             tv_menu.setOnClickListener(listener);
             iv_menu.setOnClickListener(listener);
-
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         }
